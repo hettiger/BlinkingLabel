@@ -17,7 +17,7 @@ BlinkingLabel is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'BlinkingLabel'
+pod 'BlinkingLabel', :git => 'https://github.com/hettiger/BlinkingLabel.git'
 ```
 
 ## Author
