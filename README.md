@@ -22,7 +22,7 @@ pod 'BlinkingLabel'
 
 ## Author
 
-hettiger, martin@hettiger.com
+Martin Hettiger
 
 ## License
 
