@@ -1,5 +1,5 @@
 public class BlinkingLabel : UILabel {
-    public func startBlinking() {
+    @objc public func startBlinking() {
         let options: UIViewAnimationOptions = [.repeat, .autoreverse]
         
         UIView.animate(withDuration: 0.25, delay: 0.0, options: options, animations: {
@@ -7,7 +7,7 @@ public class BlinkingLabel : UILabel {
         }, completion: nil)
     }
     
-    public func stopBlinking() {
+    @objc public func stopBlinking() {
         alpha = 1
         layer.removeAllAnimations()
     }
